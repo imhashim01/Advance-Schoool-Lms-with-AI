@@ -7,9 +7,7 @@ const Homepage = () => {
   const router = useRouter();
 
   useEffect(() => {
-    // Always redirect to sign-in for fresh authentication
-    // Comment out the user check to force login every time
-    /*
+    // Check if user is logged in
     const user = localStorage.getItem('user');
     if (user) {
       const userData = JSON.parse(user);
@@ -24,8 +22,6 @@ const Homepage = () => {
       // If not logged in, redirect to sign-in
       router.push('/sign-in');
     }
-    */
-    router.push('/sign-in');
   }, [router]);
 
   return (
