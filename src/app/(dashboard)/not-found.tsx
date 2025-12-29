@@ -8,7 +8,7 @@ export default function DashboardNotFound() {
           <div className="text-9xl text-gray-400 mb-4">404</div>
           <h1 className="text-2xl font-bold text-gray-800 mb-2">Page Not Found</h1>
           <p className="text-gray-600 mb-6">
-            The dashboard page you're looking for doesn't exist.
+            The dashboard page you&apos;re looking for doesn&apos;t exist.
           </p>
           <Link
             href="/admin"

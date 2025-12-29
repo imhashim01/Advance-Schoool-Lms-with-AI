@@ -18,7 +18,7 @@ const PerformanceAlerts = () => {
       }
       return null;
     })
-    .filter(Boolean);
+    .filter((alert): alert is NonNullable<typeof alert> => alert !== null);
 
   if (alerts.length === 0) {
     return (
