@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Lama Dev School Management Dashboard
 
 ## Getting Started
@@ -24,3 +25,6 @@ To learn more about Next.js, take a look at the following resources:
 
 - [Lama Dev Youtube Channel](https://youtube.com/lamadev) 
 - [Next.js](https://nextjs.org/learn)
+=======
+# Advance-Schoool-Lms-with-AI
+>>>>>>> 7b6f4ebde3e156405e0e07738238a4d7b5855416
