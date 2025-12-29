@@ -110,7 +110,7 @@ const TeacherPage = () => {
 
         {/* Quick Schedule View */}
         <div className="bg-white p-6 rounded-md shadow-sm lg:col-span-2">
-          <h2 className="text-xl font-semibold mb-4 text-teal-600">📅 Today's Schedule</h2>
+          <h2 className="text-xl font-semibold mb-4 text-teal-600">📅 Today&apos;s Schedule</h2>
           <div className="h-64">
             <BigCalendar />
           </div>

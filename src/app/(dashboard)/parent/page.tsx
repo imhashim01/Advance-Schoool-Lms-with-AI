@@ -10,14 +10,14 @@ const ParentPage = () => {
       {/* Header */}
       <div className="bg-white p-6 rounded-md">
         <h1 className="text-2xl font-bold text-gray-800">Parent Dashboard</h1>
-        <p className="text-gray-600 mt-2">Monitor your child's progress, communicate with teachers, and stay updated</p>
+        <p className="text-gray-600 mt-2">Monitor your child&apos;s progress, communicate with teachers, and stay updated</p>
       </div>
 
       {/* Quick Stats */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
         <div className="bg-white p-4 rounded-md shadow-sm text-center">
           <div className="text-2xl font-bold text-blue-600">John Doe</div>
-          <div className="text-sm text-gray-600">Child's Name</div>
+          <div className="text-sm text-gray-600">Child&apos;s Name</div>
         </div>
         <div className="bg-white p-4 rounded-md shadow-sm text-center">
           <div className="text-2xl font-bold text-green-600">Grade 10-A</div>
@@ -42,7 +42,7 @@ const ParentPage = () => {
           <div className="space-y-3">
             <Link href="/list/attendance">
               <button className="w-full bg-blue-500 hover:bg-blue-600 text-white py-3 px-4 rounded-lg transition-colors">
-                View Child's Attendance
+                View Child&apos;s Attendance
               </button>
             </Link>
             <Link href="/list/results">
